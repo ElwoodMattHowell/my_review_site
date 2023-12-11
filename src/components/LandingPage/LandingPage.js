@@ -36,7 +36,7 @@ function LandingPage() {
             <li key={item.id} className="item">
               <img src={item.imageUrl} alt={`Item ${item.id}`} />
               <h3>{item.title}</h3>
-              <p>{item.description}</p>
+              <p class="description">{item.description}</p>
             </li>
           ))}
         </ul>
