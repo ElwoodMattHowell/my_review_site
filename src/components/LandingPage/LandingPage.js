@@ -2,8 +2,8 @@
 
 import React from 'react';
 import './LandingPage.css';
-import Navbar from '../NavBar/Navbar.js';
-import adsumi from "../images/LandingPage/adsumi.png";
+import Navbar from '../Navbar/Navbar';
+import adsumi from '../images/LandingPage/adsumi.png';
 
 function LandingPage() {
 
